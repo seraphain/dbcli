@@ -1,0 +1,36 @@
+/generated/
+/target/
+logs/
+tmp/
+!.mvn/wrapper/maven-wrapper.jar
+
+### System Files ###
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iml
+*.ipr
+*.iws
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
