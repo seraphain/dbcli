@@ -18,6 +18,7 @@ fi
 
 base_directory=$(cd "$(dirname "$0")" || exit;pwd)
 CLASSPATH=${base_directory}
+shopt -s nullglob
 for jar in "${base_directory}"/lib/*.jar
 do
   CLASSPATH=${CLASSPATH}:${jar}
